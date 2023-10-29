@@ -154,6 +154,8 @@ h2{
 
 .education{
     clear: both;
+    text-align: left;
+   width:fit-content;
  
 }
 
@@ -165,7 +167,10 @@ h2{
     left:50%    
     
 }
+a.project:link, a.project:visited {
+    color: #f2f2f2;
+    background-color: black;
+    padding: 0 0.5%;
 
-.work-skill{
-    display: flex;
+    text-decoration: none;
 }
