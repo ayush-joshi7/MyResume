@@ -73,41 +73,43 @@ h1 {
 
 
 .address{
+    
     padding: 0 0 0 0;
-    word-spacing: 3px;
+    word-spacing: 0px;
     margin-top: 0;
     margin-bottom: -5.5px;
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
 }
 
 .contact-me{
+    display: inline-block;
     padding: 0 0 0 0;
     margin-top:0 ;
     word-spacing: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a.address:link{
+.socials{
+    display: block;
+    padding: 0 0 0 0;
+    margin:0;
+    word-spacing: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkedin{
+    width: 10px;
+    position: relative;
+    right:30px;
+    bottom: 2px;
+}
+
+a:link, a:visited{
     color:black;
     text-decoration: none;
 }
 
-a.address:visited{
-    color:black;
-    text-decoration: none;
-}
-
-a.email-id:link{
-    color:black;
-    text-decoration: none;
-}
-
-a.email-id:visited{
-    color:black;
-    text-decoration: none;
-}
 
 
 .about-me {
