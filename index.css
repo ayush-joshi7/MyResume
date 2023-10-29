@@ -196,13 +196,7 @@ a.project:link, a.project:visited {
 @media (max-width:1530px) {
     
 
-    .heading{
-        clear: both;
-    }
-
-   span{
-        display: block;
-        width: 100%;
-    }
+.socials{
+    display: block;
 
 }
