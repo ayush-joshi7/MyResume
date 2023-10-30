@@ -9,8 +9,12 @@ body {
    
 }
 
+.profile-pic1{
+    height: 50%;
+    margin: 0;
+}
 .exterior {
-    margin: 30px 300px 0 300px;
+    margin: 30px 220px 0 220px;
     border: 3px solid black;
     padding: 10px 30px 10px 30px;
     flex: 1;
@@ -86,6 +90,7 @@ h1 {
 .social{
     display: inline-block;
     margin-right: 8px;
+    
     font-size: 14px;
     position:relative;
     word-spacing: 2px;
@@ -141,12 +146,14 @@ h2{
 
     float: left;
     width: 47%;
+    border-right: 1px solid black;
+    padding-right: 36px;
 }
 
 
 .skills{
     float:right;
-    width: 47%;
+    width: 48%;
 
 }
 
@@ -158,12 +165,9 @@ h2{
 }
 
 .line{
-    clear: none;
-    border-left: 1px solid black;
-    height: 850px;
-    width: fit-content;
-    position: relative;
-    left:50%    
+    clear: both;
+    margin-bottom: 20px;
+
     
 }
 a.project:link, a.project:visited {
@@ -174,6 +178,9 @@ a.project:link, a.project:visited {
     text-decoration: none;
 }
 
+ul{
+    padding-left: 30px;
+}
 
 @media (min-width:1880px) {
     
@@ -203,6 +210,13 @@ a.project:link, a.project:visited {
         margin-bottom: 5px;
     }
 
+    .bottomline{
+        width:100%;
+        text-align: center;
+    }
+    
+
+
     #profile-pic{
         
             align-items: center;
@@ -225,4 +239,31 @@ a.project:link, a.project:visited {
         margin-bottom: 10px;
     }
 
+    .resume{
+        font-size: 70%;
+    
+    }
+    ul{
+        padding:0px 10px 15px 15px;
+        padding-top: 0;
+        padding-right: 10px;
+        padding-left: 20px;
+
+    }
+    .line{
+        display: none;
+    }
+
+    .skills, .work-ex{
+        width: 100%;
+        padding: 0;
+    }
+
+    .work-ex{
+        border: 0px solid black;
+    }
+
+    .skills{
+        border-top: 1px solid black;
+    }
 }
