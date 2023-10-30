@@ -23,6 +23,7 @@ body {
 .heading { 
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     margin-bottom: 28px;
     font-family: "Edu TAS Beginner", cursive;
     /* border: 0.5px solid #f2f2f2; */
@@ -30,7 +31,7 @@ body {
 }
 
 .heading > div{
-    flex:auto
+    flex:1;
 }
 
 .topline{
@@ -195,13 +196,7 @@ ul{
 
 }
 
-@media (max-width:1585px) and (min-width:1100px) {
-    .bottomline{
-        position: relative;
 
-        bottom:30px;
-    }
-}
 
 
 @media (max-width:1586px) {
@@ -273,10 +268,55 @@ ul{
     }
 }
 
+@media (max-width:1585px) and (min-width:1100px) {
+    .bottomline{
+        position: relative;
+
+        bottom:30px;
+    }
+}
+
+@media (max-width:1099px) and (min-width:826px) {
+    .bottomline{
+        position: relative;
+        width: 100%;
+        bottom:22px;
+        clear: both;
+    }
+
+    .heading { 
+        display: flex;
+        flex-direction: row;
+         }
+    
+    .heading > div{
+        flex:1;
+    }
+
+
+    .profile-pic1{
+
+position: relative;
+        right:16%
+    }
+
+    #profile-pic{
+        display: block;
+        margin-bottom: 30px;
+        position: relative;
+        width: auto;
+
+
+    }
+}
+
 @media (max-width:825px) {
     
-    .profile-pic{
+    #profile-pic{
         margin-right:14px;
+        margin-left: 20px;
     }
+
+    
 }
 
