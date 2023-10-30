@@ -29,6 +29,10 @@ body {
     flex:auto
 }
 
+.topline{
+    float: left;
+}
+
 #profile-pic {
 
     width: 250px;
@@ -78,48 +82,39 @@ h1 {
 }
 
 
-.address{
-    
-    padding: 0 0 0 0;
-    word-spacing: 0px;
-    margin-top: 0;
-    margin-bottom: -5.5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
-}
 
-.contact-me{
+.social{
     display: inline-block;
-    padding: 0 0 0 0;
-    margin-top:0 ;
-    word-spacing: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.socials{
-    display: inline-block;
-    padding: 0 0 0 0;
-    margin:0;
+    margin-right: 8px;
+    font-size: 14px;
     position:relative;
-    top:6px;
-    left:5px;
-    word-spacing: 24px;
+    word-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
+    clear: left;
 }
 
-.linkedin{
-    width: 10px;
+
+.symbol{
     position: relative;
-    right:30px;
-    bottom: 2px;
+    top:5px;    
+    width: 22px;
 }
+
+.address.social{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 
 .exterior a:link,.exterior a:visited{
     color:black;
     text-decoration: none;
 }
 
-
+.address-block{
+    margin-bottom: 10px;
+}
 
 .about-me {
     clear: both;
@@ -193,10 +188,41 @@ a.project:link, a.project:visited {
 
 }
 
-@media (max-width:1530px) {
-    
+@media (max-width:1560px) {
 
-.socials{
-    display: block;
+    .topline{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    h1{
+        margin-top: 14px;
+    }
+
+    .topline > .role{
+        margin-bottom: 5px;
+    }
+
+    #profile-pic{
+        
+            align-items: center;
+            display: block;
+            margin-bottom: 20px;
+    }
+
+    .address.link{
+        width: 100%;
+    }
+    .social{
+        width: 100%;
+        margin-top: 0px;
+        display: block;
+       text-align: center;
+    }
+    
+    .profile-pic1{
+        align-items: center;
+        margin-bottom: 10px;
+    }
 
 }
