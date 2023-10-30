@@ -195,7 +195,16 @@ ul{
 
 }
 
-@media (max-width:1560px) {
+@media (max-width:1585px) and (min-width:1100px) {
+    .bottomline{
+        position: relative;
+
+        bottom:30px;
+    }
+}
+
+
+@media (max-width:1586px) {
 
     .topline{
         width: 100%;
@@ -214,7 +223,6 @@ ul{
         width:100%;
         text-align: center;
     }
-    
 
 
     #profile-pic{
@@ -245,9 +253,6 @@ ul{
     }
     ul{
         padding:0px 10px 15px 15px;
-        padding-top: 0;
-        padding-right: 10px;
-        padding-left: 20px;
 
     }
     .line{
@@ -267,3 +272,11 @@ ul{
         border-top: 1px solid black;
     }
 }
+
+@media (max-width:825px) {
+    
+    .profile-pic{
+        margin-right:14px;
+    }
+}
+
