@@ -2,10 +2,9 @@ body {
   display: flex;
   align-items: center;
   margin: 8px;
-  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-family: "Times New Roman", Times, serif, sans-serif;
   font-weight: 500;
   flex-direction: column;
-
 }
 
 .exterior {
@@ -15,23 +14,19 @@ body {
   flex: 1;
 }
 
-  
-
- .heading {
+.heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 28px;
-  font-family: 'Times New Roman', Times, serif, sans-serif;
- 
+  font-family: "Times New Roman", Times, serif, sans-serif;
+
   border: 0.5px solid #f2f2f2;
-} 
-
-
+}
 
 .main-info {
-    padding: 0;
-    font-size: 20px;
+  padding: 0;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,31 +55,30 @@ body {
 }
 
 .heading {
-    border: 0px solid black;
+  border: 0px solid black;
 
   margin: 0px;
   font-size: 18px;
 }
 
 .role {
-    border: 0px solid black;
-    font-size: 23px;
-
-  }
+  border: 0px solid black;
+  font-size: 23px;
+}
 
 .contact-symbol {
   position: relative;
   top: 8px;
 }
 
-.heading > p {
+.heading>p {
   margin-top: 0px;
   font-size: 97%;
 }
 
 h1.my-name {
   margin-bottom: 150px;
-  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-family: "Times New Roman", Times, serif, sans-serif;
   font-size: 4.5rem;
   letter-spacing: 8px;
   word-spacing: 1px;
@@ -92,20 +86,15 @@ h1.my-name {
   margin-bottom: 0px;
 }
 
-
 .social {
-font-size: 18px;
+  font-size: 18px;
   word-spacing: 8x;
-  font-family: 'Times New Roman', Times, serif, sans-serif;
-  
+  font-family: "Times New Roman", Times, serif, sans-serif;
 }
 
-.symbol {  width: 22px;
+.symbol {
+  width: 22px;
 }
-
-
-
-
 
 .exterior a:link,
 .exterior a:visited {
@@ -131,8 +120,8 @@ h2 {
   margin-top: 10;
 }
 
-.about-me > p {
-  font-family: 'Times New Roman', Times, serif, sans-serif;
+.about-me>p {
+  font-family: "Times New Roman", Times, serif, sans-serif;
   font-size: 21px;
   font-weight: 500;
 }
@@ -145,35 +134,32 @@ h2 {
   padding-left: 20px;
 }
 
-.work-desc{
+.work-desc {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  gap: 18px;
+  gap: 15px;
   margin-top: 15px;
 }
 
-
-
-.skill-desc{
+.skill-desc {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  flex:1;
+  flex: 1;
   height: 348px;
   margin-bottom: 26px;
-  gap:15px
- 
+  gap: 15px;
 }
 
-.skill-desc > ul{
+.skill-desc>ul {
   padding: 0;
 }
+
 .skills {
   float: right;
   width: 48%;
-
 }
 
 .education {
@@ -182,11 +168,11 @@ h2 {
   width: fit-content;
 }
 
-.edudeet{
+.edudeet {
   display: flex;
   flex-direction: column;
-  gap:25px;
-  justify-content: space-between
+  gap: 20px;
+  justify-content: space-between;
 }
 
 .line {
@@ -194,7 +180,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.project{
+.project {
   margin-bottom: 0;
 }
 
@@ -207,34 +193,28 @@ a.project:visited {
   text-decoration: none;
 }
 
-
-.project h5{
+.project h5 {
   margin-bottom: 20px;
 }
 
-.project > li{
+.project>li {
   margin-bottom: 20px;
 }
+
 ul {
   padding-left: 30px;
-
 }
 
- @media (max-width: 1399px) {
-  .heading{
+@media (max-width: 1399px) {
+  .heading {
     text-align: center;
   }
 }
 
 @media (max-width: 1586px) {
-
-
-
-
   ul {
     padding: 0px 10px 15px 15px;
   }
-
 
   .skills,
   .work-ex {
@@ -242,41 +222,35 @@ ul {
     padding: 0;
   }
 
-  .skills > h2{
-    margin-top:10px
+  .skills>h2 {
+    margin-top: 10px;
   }
 
   .work-ex {
     border: 0px solid black;
   }
 
-
-
   .skills {
     border-top: 1px solid black;
   }
 
-  .about-me{
+  .about-me {
     text-align: center;
   }
 }
 
 @media (max-width: 1140px) {
+  .subhead {
+    text-align: center;
+  }
 
-.subhead{
-  text-align: center;
-}
-
-li > ol{
-      padding: 0px;
-}
-
+  li>ol {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 900px) {
-
-  .skills > h2{
+  .skills>h2 {
     margin-bottom: 50px;
   }
-  }
-
+}
