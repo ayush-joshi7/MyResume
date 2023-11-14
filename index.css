@@ -211,6 +211,11 @@ ul {
   }
 }
 
+@media (min-width: 1586px) {
+  .work-ex > hr{
+    margin-bottom: 34px;
+  }
+}
 @media (max-width: 1586px) {
   ul {
     padding: 0px 10px 15px 15px;
