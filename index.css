@@ -5,15 +5,18 @@ body {
   font-family: 'Times New Roman', Times, serif, sans-serif;
   font-weight: 500;
   flex-direction: column;
-  background-color: #FAF6F0;
+
 }
 
 .exterior {
   margin: 30px 220px 0 220px;
-  border: 3px solid black;
+  border: 1px solid black;
   padding: 10px 30px 10px 30px;
   flex: 1;
+  border-radius: 1%;
 }
+
+
 
  .heading {
   display: flex;
