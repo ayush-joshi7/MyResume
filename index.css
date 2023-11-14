@@ -163,6 +163,7 @@ h2 {
   justify-content: space-around;
   flex:1;
   height: 348px;
+  margin-bottom: 16px;
  
 }
 
@@ -226,8 +227,16 @@ ul {
     padding: 0;
   }
 
+  .skills > h2{
+    margin-top:10px
+  }
+
   .work-ex {
     border: 0px solid black;
+  }
+
+.subhead{
+    text-align: center;
   }
 
   .skills {
