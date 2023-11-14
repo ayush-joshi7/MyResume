@@ -1,322 +1,318 @@
 body {
-    display: flex;
-    align-items: center;
-    margin: 8px;
-    font-family: 'Chakra Petch', sans-serif;;
-    font-weight: 500;
-    flex-direction: column;
-    background-color: #f2f2f2; 
-   
+  display: flex;
+  align-items: center;
+  margin: 8px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-weight: 500;
+  flex-direction: column;
+  background-color: #FAF6F0;
 }
 
-.profile-pic1{
-    height: 50%;
-    margin: 0;
-}
 .exterior {
-    margin: 30px 220px 0 220px;
-    border: 3px solid black;
-    padding: 10px 30px 10px 30px;
-    flex: 1;
+  margin: 30px 220px 0 220px;
+  border: 3px solid black;
+  padding: 10px 30px 10px 30px;
+  flex: 1;
 }
 
-.heading { 
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin-bottom: 28px;
-    font-family: "Edu TAS Beginner", cursive;
-    /* border: 0.5px solid #f2f2f2; */
-    border: 0.5px solid #f2f2f2;
+ .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+ 
+  border: 0.5px solid #f2f2f2;
+} 
+
+
+
+.main-info {
+    padding: 0;
+    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150%;
 }
 
-.heading > div{
-    flex:1;
-}
-
-.topline{
-    float: left;
+.topline {
+  display: flex;
+  flex-direction: column;
 }
 
 #profile-pic {
-
-    width: 250px;
-    height: 250px;
-    margin-top:30px;
-    margin-right: 6.7%;
-    border: 1.4px solid black;
-    border-radius: 0%;
-    object-fit: fit;
-    position: relative;
-
-
-    float: right;
+  width: 220px;
+  height: 220px;
+  border: 1.4px solid black;
+  border-radius: 0%;
+  object-fit: fit;
 }
 
-.heading .role{
-    display: inline-block;
-    padding: 5.5px;
+.profile-pic1 {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+
+  height: 50%;
+  margin: 0;
+}
+
+.heading {
+    border: 0px solid black;
+  border-radius: 10%;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.role {
+    border: 0px solid black;
     border-radius: 10%;
-    margin:0px;
-    margin-bottom: 30px;
-    font-size:18px;
+    font-size: 23px;
+
+  }
+
+.contact-symbol {
+  position: relative;
+  top: 8px;
 }
 
-.contact-symbol{
-    
-    position: relative;
-    top:8px
-    
+.heading > p {
+  margin-top: 0px;
+  font-size: 97%;
 }
 
-
-.heading>p {
-    margin-top: 0px;
-    font-size: 97%;
-    
-}
-
-h1 {
-    margin-bottom: 150px;
-    font-family: "GFS Didot", serif;
-    font-size: 4.5rem;
-    letter-spacing: 8px;
-    word-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 0px;
+h1.my-name {
+  margin-bottom: 150px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-size: 4.5rem;
+  letter-spacing: 8px;
+  word-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 
-
-.social{
-    display: inline-block;
-    margin-right: 8px;
-    
-    font-size: 14px;
-    position:relative;
-    word-spacing: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    clear: left;
+.social {
+font-size: 18px;
+  word-spacing: 8x;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  
 }
 
-
-.symbol{
-    position: relative;
-    top:5px;    
-    width: 22px;
+.symbol {  width: 23px;
 }
 
-.address.social{
-    display: block;
-    font-size: 16px;
-    font-weight: 600;
+.address.social {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
 }
 
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
 
-.exterior a:link,.exterior a:visited{
-    color:black;
-    text-decoration: none;
+
+.exterior a:link,
+.exterior a:visited {
+  color: black;
+  text-decoration: none;
 }
 
-.address-block{
-    margin-bottom: 10px;
+.address-block {
+  margin-bottom: 10px;
 }
 
 .about-me {
-    clear: both;
-    text-align: justify;
+  clear: both;
+  text-align: justify;
 }
 
-hr{
-    margin:34px 0;
-    clear: both;
+hr {
+  margin: 34px 0;
+  clear: both;
 }
 
-h2{
-    margin-top:10;
+h2 {
+  margin-top: 10;
 }
 
-.about-me > p{
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+.about-me > p {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
 }
 
-
-.work-ex{
-
-    float: left;
-    width: 47%;
-    border-right: 1px solid black;
-    padding-right: 36px;
+.work-ex {
+  float: left;
+  width: 47%;
+  border-right: 1px solid black;
+  padding-right: 36px;
 }
 
-
-.skills{
-    float:right;
-    width: 48%;
-
+.skills {
+  float: right;
+  width: 48%;
 }
 
-.education{
-    clear: both;
-    text-align: left;
-   width:fit-content;
- 
+.education {
+  clear: both;
+  text-align: left;
+  width: fit-content;
 }
 
-.line{
-    clear: both;
+.line {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+a.project:link,
+a.project:visited {
+  color: #f2f2f2;
+  background-color: black;
+  padding: 0 0.5%;
+
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+@media (min-width: 1880px) {
+  body {
+    margin: 8px;
+    align-items: center;
+  }
+
+  .exterior {
+    width: 1257px;
+  }
+}
+
+@media (max-width: 1586px) {
+  .topline {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  h1 {
+    margin-top: 14px;
+  }
+
+  .topline > .role {
+    margin-bottom: 5px;
+  }
+
+  .bottomline {
+    width: 100%;
+    text-align: center;
+  }
+
+  #profile-pic {
+    align-items: center;
+    display: block;
     margin-bottom: 20px;
+  }
 
-    
-}
-a.project:link, a.project:visited {
-    color: #f2f2f2;
-    background-color: black;
-    padding: 0 0.5%;
+  .address.link {
+    width: 100%;
+  }
 
-    text-decoration: none;
-}
+  .social {
+    width: 100%;
+    margin-top: 0px;
+    display: block;
+    text-align: center;
+  }
 
-ul{
-    padding-left: 30px;
-}
+  .profile-pic1 {
+    align-items: center;
+    margin-bottom: 10px;
+  }
 
-@media (min-width:1880px) {
-    
-    body {
-        margin: 8px;
-        align-items: center;
-    }
-    
-    .exterior {
-        width: 1257px
-    }
+  .resume {
+    font-size: 80%;
+  }
 
-}
+  ul {
+    padding: 0px 10px 15px 15px;
+  }
 
+  .line {
+    display: none;
+  }
 
+  .skills,
+  .work-ex {
+    width: 100%;
+    padding: 0;
+  }
 
+  .work-ex {
+    border: 0px solid black;
+  }
 
-@media (max-width:1586px) {
-
-    .topline{
-        width: 100%;
-        text-align: center;
-        display: block;
-    }
-    h1{
-        margin-top: 14px;
-    }
-
-    .topline > .role{
-        margin-bottom: 5px;
-    }
-
-    .bottomline{
-        width:100%;
-        text-align: center;
-    }
-
-
-    #profile-pic{
-        
-            align-items: center;
-            display: block;
-            margin-bottom: 20px;
-    }
-
-    .address.link{
-        width: 100%;
-    }
-    .social{
-        width: 100%;
-        margin-top: 0px;
-        display: block;
-       text-align: center;
-    }
-    
-    .profile-pic1{
-        align-items: center;
-        margin-bottom: 10px;
-    }
-
-    .resume{
-        font-size: 80%;
-    
-    }
-    ul{
-        padding:0px 10px 15px 15px;
-
-    }
-    .line{
-        display: none;
-    }
-
-    .skills, .work-ex{
-        width: 100%;
-        padding: 0;
-    }
-
-    .work-ex{
-        border: 0px solid black;
-    }
-
-    .skills{
-        border-top: 1px solid black;
-    }
+  .skills {
+    border-top: 1px solid black;
+  }
 }
 
-@media (max-width:1585px) and (min-width:1100px) {
-    .bottomline{
-        position: relative;
+@media (max-width: 1585px) and (min-width: 1100px) {
+  .bottomline {
+    position: relative;
 
-        bottom:30px;
-    }
+    bottom: 30px;
+  }
 }
 
-@media (max-width:1099px) and (min-width:826px) {
-    .bottomline{
-        position: relative;
-        width: 100%;
-        bottom:22px;
-        clear: both;
-    }
+@media (max-width: 1099px) and (min-width: 826px) {
+  .bottomline {
+    position: relative;
+    width: 100%;
+    bottom: 22px;
+    clear: both;
+  }
 
-    .heading { 
-        display: flex;
-        flex-direction: row;
-         }
-    
-    .heading > div{
-        flex:1;
-    }
+  .heading {
+    display: flex;
+    flex-direction: row;
+  }
 
+  .heading > div {
+    flex: 1;
+  }
 
-    .profile-pic1{
+  .profile-pic1 {
+    position: relative;
+    right: 16%;
+  }
 
-position: relative;
-        right:16%
-    }
-
-    #profile-pic{
-        display: block;
-        margin-bottom: 30px;
-        position: relative;
-        width: auto;
-
-
-    }
+  #profile-pic {
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+    width: auto;
+  }
 }
 
-@media (max-width:825px) {
-    
-    #profile-pic{
-        margin-right:16px;
-        margin-left: 20px;
-    }
-
-    
+@media (max-width: 825px) {
+  #profile-pic {
+    margin-right: 16px;
+    margin-left: 20px;
+  }
 }
-
